@@ -6,6 +6,8 @@ WORKDIR /srv/app
 
 VOLUME /srv/app
 
+COPY package.json .
+
 RUN npm install
 RUN npm run build
 
