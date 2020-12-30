@@ -11,7 +11,6 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "husky": "^4.3.6",
     "strapi": "3.4.1",
     "strapi-admin": "3.4.1",
     "strapi-connector-mongoose": "3.4.1",
@@ -31,11 +30,6 @@
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "post-checkout": "npm install"
-    }
   },
   "license": "MIT"
 }
