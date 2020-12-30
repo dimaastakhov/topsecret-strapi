@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_projects_components_contents",
+  "info": {
+    "name": "contents",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "scheduleTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archives",
+  "info": {
+    "name": "Archives"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "cover_url": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "uid": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

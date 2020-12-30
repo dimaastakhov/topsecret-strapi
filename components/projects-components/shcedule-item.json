@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_projects_components_shcedule_items",
+  "info": {
+    "name": "shceduleItem",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "when": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

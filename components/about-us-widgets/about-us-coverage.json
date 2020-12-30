@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_us_widgets_about_us_coverages",
+  "info": {
+    "name": "about us coverage",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

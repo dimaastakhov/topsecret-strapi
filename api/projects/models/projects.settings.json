@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "projects-components.contents"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects-components.shcedule-item"
+    }
+  }
+}

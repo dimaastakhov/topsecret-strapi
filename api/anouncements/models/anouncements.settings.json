@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anouncements",
+  "info": {
+    "name": "anouncements"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "tag": {
+      "type": "string",
+      "default": "Новость",
+      "required": true
+    }
+  }
+}

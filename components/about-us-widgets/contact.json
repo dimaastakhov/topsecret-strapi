@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_about_us_widgets_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "leftContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-widgets.left-content"
+    },
+    "rightContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-widgets.left-content"
+    },
+    "mobPhoneLabel": {
+      "type": "string",
+      "required": true
+    },
+    "mobPhone": {
+      "type": "string",
+      "required": true
+    },
+    "homePhoneLabel": {
+      "type": "string",
+      "required": true
+    },
+    "homePhone": {
+      "type": "string",
+      "required": true
+    },
+    "emailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "emailOne": {
+      "type": "string",
+      "required": true
+    },
+    "emailTwo": {
+      "type": "string"
+    },
+    "addressLabel": {
+      "type": "string"
+    },
+    "addresssCityCountry": {
+      "type": "string"
+    },
+    "addressStreet": {
+      "type": "string"
+    }
+  }
+}
