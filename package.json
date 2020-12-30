@@ -11,18 +11,19 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "husky": "^4.3.6",
     "strapi": "3.4.1",
     "strapi-admin": "3.4.1",
-    "strapi-utils": "3.4.1",
-    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-connector-mongoose": "3.4.1",
     "strapi-plugin-content-manager": "3.4.1",
-    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
     "strapi-plugin-email": "3.4.1",
     "strapi-plugin-upload": "3.4.1",
-    "strapi-connector-mongoose": "3.4.1"
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-utils": "3.4.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "David Mikadze"
   },
   "strapi": {
     "uuid": "d46e69f9-c6f2-4261-9fd6-6f157b561165"
@@ -30,6 +31,11 @@
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "post-checkout": "npm install"
+    }
   },
   "license": "MIT"
 }
