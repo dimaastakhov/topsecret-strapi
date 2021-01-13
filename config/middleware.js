@@ -1,23 +1,8 @@
-const zlib = require("zlib");
-
-// module.exports = {
-//   settings: {
-//     gzip: {
-//       enabled: true,
-//       options: {
-//         br: {
-//           params: {
-//             [zlib.constants.BROTLI_PARAM_MODE]: zlib.constants.BROTLI_MODE_TEXT,
-//             [zlib.constants.BROTLI_PARAM_QUALITY]: 4,
-//           },
-//         },
-//       },
-//     },
-//   },
-// };
-
 module.exports = {
   settings: {
-    gzip: { enabled: false },
+    gzip: { enabled: true },
+    options: {
+      br: false,
+    },
   },
 };
